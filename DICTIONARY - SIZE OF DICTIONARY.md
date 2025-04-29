@@ -22,15 +22,17 @@ To write a Python program to print the size of a dictionary using `getsizeof()` 
 ### PROGRAM
 
 ```
-#Reg.No
-#Name
-#Add Your Code Here
-
-
-
+# min and max of dict - values
+dict1 = {'key 1': 200, 'key 2': 300}
+max=max(dict1.values())
+min=min(dict1.values())
+# printing result
+print(f"{max} is maximum")
+print(f"{min} is mimimum")
 ```
 
 ### OUTPUT
-
+![image](https://github.com/user-attachments/assets/2023426f-3eb3-46ab-8b01-8c127205f83c)
 
 ### RESULT
+Thus the Python program to print the size of a dictionary using `getsizeof()` from the `sys` module is successfully implemented and executed.
