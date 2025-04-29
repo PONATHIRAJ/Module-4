@@ -23,12 +23,20 @@ To create a Python program that prompts the user for a list of grades separated 
 ### PROGRAM
 
 ```
-Reg.No
-Name
-Add Your Code Here
-
+a=input()
+try:
+    b=a.split(',')
+    b=[int(c) for c in b]
+    print(b)
+except ValueError:
+    print("The grades you entered were in an invalid format.")
+    print(b)
+    
 ```
 
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/271efcc8-8dd2-447b-897a-80e594f7a375)
+
 
 ### RESULT
+Thus the Python program that prompts the user for a list of grades separated by commas, splits the string into individual grades, and uses exception handling to inform the user if the values they entered cannot be converted to integers is successfully implemented and executed.
