@@ -35,11 +35,38 @@ To write a Python program to perform addition and division operations using a cl
 ### PROGRAM
 
 ```
-
-
-
+class cse:
+    def mul(self,a,b):
+        self.a=a
+        self.b=b
+        print("Result: ",a*b)
+    def div(self,a,b):
+        self.a=a
+        self.b=b
+        print("Result: ",a//b)    
+        
+z=cse()
+a=int(input())
+b=int(input())
+q=False
+while q==False:
+    x=int(input())
+    if x==1:
+        z.mul(a,b)
+    elif x==2:
+        z.div(a,b)
+    elif x==0:
+        print("Exiting!")
+        q=True
+        break;
+    else:
+        print("Invalid choice")
+        q=True
+        break;
 ```
 
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/d4bb4d49-b75c-4f91-980c-b2811a8e70ee)
 
 ### RESULT
+Thus the Python program to perform addition and division operations using a class. The class should be named `Saveetha`, and the function names should be `setvalues` (to set `a` and `b` values), `add`, and `div` is successfully implemented and executed.
